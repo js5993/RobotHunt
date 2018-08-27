@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Robot Hunt!</string>
+    <string name="author">by Junho Sung</string>
+    <string name="skip_button">SKIP</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="play_game">Play game!</string>
+    <string name="options">Options</string>
+    <string name="help">Help</string>
+    <string name="title_activity_game_screen">gameScreen</string>
+    <string name="found_mines">found</string>
+    <string name="scans_used"># scans used:</string>
+    <string name="settings">Settings</string>
+    <string name="help_screen_text">A group of renegade robots have escaped from the robot factory!
+        They are hiding behind grey blocks! It falls to you, the player, to guess where they are hiding
+        so that they can be brought back to the factory. </string>
+    <string name="victory_message">Congratulations! You have found all the robots!</string>
+    <string name="about_author">This project was made by Junho Sung as part of assignment from CMPT
+    276 taught by Dr.Brian Fraser. Link to class website: http://www.cs.sfu.ca/CourseCentral/276/bfraser/index.html.
+    </string>
+    <string name="links">Links to images used in project: http://www.cs.sfu.ca/CourseCentral/276/bfraser/solutions/images/ImageGallery/content/shutterstock_58508720_large.html.
+        http://www.cs.sfu.ca/CourseCentral/276/bfraser/solutions/images/ImageGallery/content/shutterstock_76677952_large.html</string>
+    <string name="title_activity_help">HelpActivity</string>
+
+
+</resources>
