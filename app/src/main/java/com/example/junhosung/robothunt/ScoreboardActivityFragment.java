@@ -105,6 +105,7 @@ public class ScoreboardActivityFragment extends Fragment {
             }
         }
 
+
         return records;
 
     }
