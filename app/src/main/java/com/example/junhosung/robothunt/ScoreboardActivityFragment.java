@@ -97,6 +97,7 @@ public class ScoreboardActivityFragment extends Fragment {
             }
 
 
+
         } catch (IOException |JSONException e) {
 
         } finally {
