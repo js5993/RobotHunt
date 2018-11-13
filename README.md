@@ -2,11 +2,12 @@
 
 This project was the first serious android app I have done.
 
-The initial version of the project was done for an assignment for SFU CMPT 276 class.
+The initial version of the project was done for an assignment for SFU CMPT 276 class during Spring 2018 semester.
 
-I have extended the work with additional content
+I have extended the work with additional content, mainly by continuing to study the
+Android Big Nerd Ranch textbook.
 
-I have since done such improvements to the project, including:
+The improvements done to the project, include:
 
 1) ported the project to use fragments instead of activities, conforming to the AUF principle.
 
@@ -19,3 +20,13 @@ I have since done such improvements to the project, including:
 5) code refactorings.
 
 6) new background.
+
+#TODO 
+
+1. Improve the alignment of widgets in portrait mode, or if not possible, then set orientation permanently to landscape.
+
+2. Fill in the help section. Possibly with this README.
+
+3. Change the music to something more appropriate.
+
+4. Change the game setting selection to a proper menu. Or maybe even use a Dialogue fragment.
