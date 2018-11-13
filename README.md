@@ -14,14 +14,3 @@ The improvements done to the project since Spring, include:
 4) The project now has sound effects when the game is won.
 5) There has been some code refactoring.
 6) A new background has been added.
-
-
-#TODO 
-
-1. Improve the alignment of widgets in portrait mode, or if not possible, then set orientation permanently to landscape.
-
-2. Fill in the help section. Possibly with this README.
-
-3. Change the music to something more appropriate.
-
-4. Change the game setting selection to a proper menu. Or maybe even use a Dialogue fragment.
