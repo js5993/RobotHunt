@@ -7,19 +7,14 @@ The initial version of the project was done for an assignment for SFU CMPT 276 c
 I have extended the work with additional content, mainly by continuing to study the
 Android Big Nerd Ranch textbook.
 
-The improvements done to the project, include:
+The improvements done to the project since Spring, include:
+1) The project now uses fragments for UI code, not activities. This conforms to the AUF (Always Use Fragments) principle.
+2) The project now has a scoreboard so that the users can store their prior performance.
+3) The project now has music.
+4) The project now has sound effects when the game is won.
+5) There has been some code refactoring.
+6) A new background has been added.
 
-1) ported the project to use fragments instead of activities, conforming to the AUF principle.
-
-2) added score keeping so that the users store their prior performance.
-
-3) added music that plays while playing the game.
-
-4) added music that plays when the game is won.
-
-5) code refactorings.
-
-6) new background.
 
 #TODO 
 
