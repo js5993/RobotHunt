@@ -1,6 +1,6 @@
 # RobotHunt
 
-This project was the first serious android app I have done.
+This is my first serious Android app.
 
 The initial version of the project was done for an assignment for SFU CMPT 276 class during Spring 2018 semester.
 
