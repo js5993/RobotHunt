@@ -12,8 +12,10 @@ I have since done such improvements to the project, including:
 
 2) added score keeping so that the users store their prior performance.
 
-3) added music that plays while playing the game
+3) added music that plays while playing the game.
 
-4) added music that plays when the game is won
+4) added music that plays when the game is won.
 
-5) code refactorings
+5) code refactorings.
+
+6) new background.
