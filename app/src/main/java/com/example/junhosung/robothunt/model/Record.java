@@ -1,4 +1,4 @@
-package com.example.junhosung.robothunt;
+package com.example.junhosung.robothunt.model;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -13,14 +13,13 @@ public class Record {
     int numCols;
 
     int numMines;
-    int scansSoFar;
+    public int scansSoFar;
 
     public Record(JSONObject jsonObject) throws JSONException {
         numRows = jsonObject.getInt("numRows");
         numCols = jsonObject.getInt("numCols");
         numMines = jsonObject.getInt("numMines");
         scansSoFar = jsonObject.getInt("scansSoFar");
-
     }
 
     @Override

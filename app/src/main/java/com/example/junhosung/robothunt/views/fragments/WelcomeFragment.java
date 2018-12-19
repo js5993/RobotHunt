@@ -1,6 +1,5 @@
-package com.example.junhosung.robothunt;
+package com.example.junhosung.robothunt.views.fragments;
 
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -11,11 +10,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.example.junhosung.robothunt.R;
+import com.example.junhosung.robothunt.views.activities.MainMenuActivity;
+
 /**
  * Created by Junho Sung on 8/6/2018.
  */
 
-public class WelcomeActivityFragment extends Fragment {
+public class WelcomeFragment extends Fragment {
 
     Button btnSkip;
 

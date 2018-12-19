@@ -1,4 +1,4 @@
-package com.example.junhosung.robothunt;
+package com.example.junhosung.robothunt.views.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -8,11 +8,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.junhosung.robothunt.R;
+
 /**
  * Created by Junho Sung on 8/6/2018.
  */
 
-public class HelpActivityFragment extends Fragment {
+public class HelpFragment extends Fragment {
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {

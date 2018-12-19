@@ -1,4 +1,4 @@
-package com.example.junhosung.robothunt;
+package com.example.junhosung.robothunt.views.fragments;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -12,13 +12,15 @@ import android.view.ViewGroup;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
+import com.example.junhosung.robothunt.R;
+
 import static android.content.Context.MODE_PRIVATE;
 
 /**
  * Created by Junho Sung on 8/6/2018.
  */
 
-public class OptionActivityFragment extends Fragment {
+public class OptionFragment extends Fragment {
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {

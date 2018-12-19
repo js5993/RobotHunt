@@ -1,7 +1,9 @@
-package com.example.junhosung.robothunt;
+package com.example.junhosung.robothunt.media;
 
 import android.content.Context;
 import android.media.MediaPlayer;
+
+import com.example.junhosung.robothunt.R;
 
 /**
  * Created by Junho Sung on 8/9/2018.
@@ -21,7 +23,7 @@ public class AudioPlayer {
     public void play(Context context) {
         stop();
 
-        mediaPlayer = MediaPlayer.create(context,R.raw.over_the_rainbow);
+        mediaPlayer = MediaPlayer.create(context, R.raw.over_the_rainbow);
         mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mediaPlayer) {

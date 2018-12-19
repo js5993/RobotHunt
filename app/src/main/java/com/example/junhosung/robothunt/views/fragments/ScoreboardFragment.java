@@ -1,4 +1,4 @@
-package com.example.junhosung.robothunt;
+package com.example.junhosung.robothunt.views.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -10,6 +10,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.example.junhosung.robothunt.R;
+import com.example.junhosung.robothunt.model.Record;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -27,7 +30,7 @@ import java.util.Comparator;
  * Created by Junho Sung on 8/10/2018.
  */
 
-public class ScoreboardActivityFragment extends Fragment {
+public class ScoreboardFragment extends Fragment {
 
     public static final String FILE_NAME = "records.json";
     TextView txtTest;

@@ -1,4 +1,4 @@
-package com.example.junhosung.robothunt;
+package com.example.junhosung.robothunt.views.dialogs;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -10,11 +10,13 @@ import android.support.v4.app.DialogFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 
+import com.example.junhosung.robothunt.R;
+
 /**
  * Created by Junho Sung on 8/6/2018.
  */
 
-public class VictoryMessageFragment extends DialogFragment {
+public class VictoryDialog extends DialogFragment {
 
     @NonNull
     @Override

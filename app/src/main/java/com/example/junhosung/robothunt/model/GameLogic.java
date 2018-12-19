@@ -1,4 +1,4 @@
-package com.example.junhosung.robothunt;
+package com.example.junhosung.robothunt.model;
 
 import java.util.Random;
 
@@ -27,7 +27,7 @@ public class GameLogic {
 
     Random random = new Random();
 
-    GridCell [][] mineField = new GridCell[numRow][numCol];
+    public GridCell[][] mineField = new GridCell[numRow][numCol];
 
     public void updateMineField(int row, int col) {
         mineField = new GridCell[row][col];

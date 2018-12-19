@@ -9,20 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GameActivity" />
-        <activity android:name=".WelcomeActivity">
+        <activity android:name=".views.activities.GameActivity" />
+        <activity android:name=".views.activities.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainMenuActivity" />
-        <activity android:name=".OptionActivity" />
+        <activity android:name=".views.activities.MainMenuActivity" />
+        <activity android:name=".views.activities.OptionActivity" />
         <activity
-            android:name=".HelpActivity"
+            android:name=".views.activities.HelpActivity"
             android:label="@string/title_activity_help" />
-        <activity android:name=".ScoreboardActivity"></activity>
+        <activity android:name=".views.activities.ScoreboardActivity"></activity>
     </application>
 
 </manifest>

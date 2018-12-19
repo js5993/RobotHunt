@@ -1,4 +1,4 @@
-package com.example.junhosung.robothunt;
+package com.example.junhosung.robothunt.views.fragments;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -20,6 +20,11 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.junhosung.robothunt.R;
+import com.example.junhosung.robothunt.media.AudioPlayer;
+import com.example.junhosung.robothunt.model.GameLogic;
+import com.example.junhosung.robothunt.views.dialogs.VictoryDialog;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -33,7 +38,7 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 
-public class GameActivityFragment extends Fragment {
+public class GameFragment extends Fragment {
 
 
     private static final int DEFAULT_NUM_ROWS = 5;
@@ -47,7 +52,6 @@ public class GameActivityFragment extends Fragment {
     private AudioPlayer audioPlayer = new AudioPlayer();
 
     public JSONArray previousRecord;
-
 
     Button buttons[][];
 
@@ -68,9 +72,9 @@ public class GameActivityFragment extends Fragment {
 
         // get option values from shared preferences
 
-        numRows = OptionActivityFragment.getNumRowSelected(getActivity());
-        numCols = OptionActivityFragment.getNumColSelected(getActivity());
-        numMines = OptionActivityFragment.getNumMineSelected(getActivity());
+        numRows = OptionFragment.getNumRowSelected(getActivity());
+        numCols = OptionFragment.getNumColSelected(getActivity());
+        numMines = OptionFragment.getNumMineSelected(getActivity());
 
         //Toast.makeText(getActivity()," " + numRows + " X " + numCols + " " + numMines,Toast.LENGTH_LONG).show();
 
@@ -325,7 +329,7 @@ public class GameActivityFragment extends Fragment {
         if (numFoundMines == numMines) {
 
             FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-            VictoryMessageFragment victoryMessageFragment = new VictoryMessageFragment();
+            VictoryDialog victoryMessageFragment = new VictoryDialog();
             victoryMessageFragment.show(fragmentManager,"Victory Dialog");
             audioPlayer.playCheering(getActivity());
 
